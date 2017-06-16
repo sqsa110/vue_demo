@@ -1,6 +1,6 @@
-# vuerouter
+# mint_ui
+### 简单的引入了mint_ui, 并且做了一个上拉刷新的功能
 
-  demo包含了自定义访问vue路由按钮、1级路由、2级路由、默认路由
 
 > A Vue.js project
 

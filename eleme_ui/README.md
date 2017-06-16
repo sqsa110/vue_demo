@@ -1,6 +1,4 @@
-# vuerouter
-
-  demo包含了自定义访问vue路由按钮、1级路由、2级路由、默认路由
+# eleme_ui
 
 > A Vue.js project
 
