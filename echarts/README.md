@@ -1,21 +1,4 @@
-# mint_ui
-### mint_ui 链接
- [http://mint-ui.github.io/#!/zh-cn] : http://mint-ui.github.io/#!/zh-cn
-
-### 简单的引入了mint_ui, 并且做了一个上拉刷新的功能
-
-### 安装mint_ui
-``` bash
-  npm install mint-ui --save
-```
-
-### 在main.js中引入mint_ui
-``` javascript
-  import Mint from 'mint-ui'
-  Vue.use(Mint)
-```
-
-  此Demo自定义了一个上拉刷新请求数据的功能
+# echarts
 
 > A Vue.js project
 

@@ -1,0 +1,55 @@
+#fd_header {
+  position: relative;
+  overflow: auto;
+  background: #0e0;
+  height: 0.75rem;
+}
+#fd_header .icon {
+  font-size: 14px;
+  color: #fff;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+[data-dpr='2'] #fd_header .icon {
+  font-size: 16.8px;
+}
+[data-dpr='3'] #fd_header .icon {
+  font-size: 19.599999999999998px;
+}
+.goback,
+.gohome {
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  top: 0;
+  font-size: 14px;
+}
+[data-dpr='2'] .goback,
+[data-dpr='2'] .gohome {
+  font-size: 16.8px;
+}
+[data-dpr='3'] .goback,
+[data-dpr='3'] .gohome {
+  font-size: 19.599999999999998px;
+}
+.goback a,
+.gohome a {
+  color: #fff;
+}
+.goback {
+  border-right: 1px solid #ccc;
+  left: 0.25rem;
+}
+.gohome {
+  border-left: 1px solid #ccc;
+  padding-left: 0.125rem;
+  right: 0.25rem;
+}
+.header_title {
+  text-align: center;
+  height: 0.75rem;
+  line-height: 0.75rem;
+  color: #fff;
+  font-size: 0.45rem;
+}

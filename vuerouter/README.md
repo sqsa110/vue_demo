@@ -1,6 +1,8 @@
 # vuerouter
-
   demo包含了自定义访问vue路由按钮、1级路由、2级路由、默认路由
+
+### vue_router API
+  [https://router.vuejs.org/zh-cn/essentials/getting-started.html] : https://router.vuejs.org/zh-cn/essentials/getting-started.html
 
 > A Vue.js project
 

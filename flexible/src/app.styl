@@ -1,0 +1,73 @@
+$browser-default-font-size = 40px !default
+
+pxTorem($px)
+  return (1rem * ($px / $browser-default-font-size))
+
+font-dpr($font-size){
+  font-size $font-size
+
+  [data-dpr='2'] & {
+    font-size $font-size * 1.2
+  }
+
+  [data-dpr='3'] & {
+    font-size $font-size * 1.4
+  }
+}
+
+
+$fd_input_height = 3rem
+$fd_background_active = #58B7FF
+$fd_background = #20A0FF
+$fd_font_active = #F9FAFC
+$fc_background_3 = #1D8CE0
+
+$header_height = pxTorem(30px)
+$header_img_width = pxTorem(30px)
+$header_padding_top = pxTorem(5px)
+$header_margin = pxTorem(10px)
+$header_icon_height = pxTorem(30px)
+$header_background_color = #00ee00
+$font_color = #fff
+
+#fd_header
+  position relative
+  overflow auto
+  background $header_background_color
+  height $header_height
+
+  .icon
+  //  font-size $header_icon_height
+    font-dpr(14px)
+    color $font_color
+    width $header_icon_height
+    height $header_icon_height
+
+.goback,.gohome
+  position absolute
+  width $header_img_width
+  height $header_img_width
+  line-height $header_img_width
+  top 0
+  font-dpr(14px)
+
+  a
+    color #fff
+
+.goback
+  border-right 1px solid #ccc
+  left $header_margin
+
+.gohome
+  border-left 1px solid #ccc
+  padding-left ($header_margin / 2)
+  right $header_margin
+
+.header_title
+  text-align center
+  height $header_height
+  line-height $header_height
+  color $font_color
+  font-size pxTorem(18px)
+
+

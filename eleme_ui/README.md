@@ -1,4 +1,21 @@
 # eleme_ui
+  eleme_ui Demo
+
+### eleme_ui 链接
+  [http://element.eleme.io/#/zh-CN/component/installation] : http://element.eleme.io/#/zh-CN/component/installation
+
+### 安装eleme_ui
+  ``` bash
+    npm install element-ui --save
+  ```
+
+### 在main.js中引用eleme_ui
+  ``` javascript
+    import ElementUI from 'element-ui'  // 引入ElementUI
+    import 'element-ui/lib/theme-default/index.css' // 引入Element的css文件
+    Vue.use(ElementUI)    // 注册ElementUI
+  ```
+
 
 > A Vue.js project
 

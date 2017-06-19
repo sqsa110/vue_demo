@@ -1,11 +1,13 @@
 # vue_page
-
   vue的属性传值,数据双向绑定,点击事件,自定义事件,stylus的使用
+
+## vue官网
+  [vue API] : https://cn.vuejs.org/v2/guide/installation.html
 
 ## stylus
   stylus安装只需要
-  ```javascript
-    npm intall stylus stylus-loader
+  ``` bash
+    npm intall stylus stylus-loader --save-dev
   ```
 > A Vue.js project
 

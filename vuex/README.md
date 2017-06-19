@@ -1,5 +1,7 @@
 # vuex
 ### 此demo包含了双向数据绑定，在组件获取，修改state数据的事例
+### vuex教程
+  [vuex教程] : https://zhuanlan.zhihu.com/p/24357762
 
 1. store.js
     vuex入口文件,初始化vuex文件

@@ -1,28 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <el-button @click="visible = true">按钮</el-button>
+    <el-dialog v-model="visible" title="Hello world">
+      <p>欢迎使用 Element</p>
+    </el-dialog>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
 
 export default {
   name: 'app',
+  data () {
+    return { visible: false }
+  },
   components: {
-    Hello
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
